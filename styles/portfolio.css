@@ -22,9 +22,12 @@ nav {
 
 .button {
     color: #FD6E0A;
-    height: 27px;
-    width: 113px;
-    margin-left: 2px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    top: 608px;
+    margin-bottom: 20px;
+    margin-left: 15px;
 }
 
 .header {
@@ -86,13 +89,12 @@ nav li {
 
 .btn-primary {
     color: #ffffff;
-    font-weight: 700px;
+    font-weight: 700;
     font-size: 20px;
-    border: 0;
-    padding: 18px 35px;
-    height: 64px;
-    border-radius: 5px;
+    line-height: 27px;
+    top: 608px;
     background-color: #FD6E0A;
+    margin-bottom: 20px;
 }
 
 .banner {
@@ -188,13 +190,13 @@ main {
     margin-bottom: 50px;
 }
 
-.resum-content{
+.resum-content {
     display: flex;
     gap: 24px;
-  
+
 }
 
-.resume .title{
+.resume .title {
     color: #474747;
     font-weight: 700;
     font-size: 25px;
@@ -213,19 +215,40 @@ main {
     color: #757575;
 
 }
-.resume-item{
+
+.resume-item {
     margin-top: 30px;
     bottom: 30px;
 
 }
-.resume-button{
+
+.resume-button {
     margin-top: 50px;
     text-align: center;
 }
-.button-primary{
+
+.button-primary {
     background-color: #FD6E0A;
     margin: 5px;
     color: #FFFFFF;
     height: 25px;
     width: 140px;
+}
+
+.contact {
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+
+}
+
+.contact input[type="text"], input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100;
+    padding: 18px 20px;
+}
+.contact a{
+    text-decoration: none;
 }
