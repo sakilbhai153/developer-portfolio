@@ -187,3 +187,45 @@ main {
     margin-top: 30px;
     margin-bottom: 50px;
 }
+
+.resum-content{
+    display: flex;
+    gap: 24px;
+  
+}
+
+.resume .title{
+    color: #474747;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.resume .sub-title {
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+
+.resume .description {
+    color: #757575;
+
+}
+.resume-item{
+    margin-top: 30px;
+    bottom: 30px;
+
+}
+.resume-button{
+    margin-top: 50px;
+    text-align: center;
+}
+.button-primary{
+    background-color: #FD6E0A;
+    margin: 5px;
+    color: #FFFFFF;
+    height: 25px;
+    width: 140px;
+}
