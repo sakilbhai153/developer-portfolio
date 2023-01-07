@@ -34,6 +34,15 @@ nav {
     background-position: bottom right, left;
 }
 
+.section-title {
+    margin-top: 130px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    text-align: center;
+}
+
 .button-style {
     width: 150px;
     height: 64px;
@@ -121,16 +130,60 @@ main {
     font-weight: 700px;
     font-size: 35px;
 }
-.about-info-contianer{
+
+.about-info-contianer {
     display: flex;
     justify-content: space-around;
 }
-.about-into{
+
+.about-into {
     font-size: 20px;
     color: #757575;
 }
-.info-description{
+
+.info-description {
     font-weight: 700;
     font-size: 20px;
     color: #474747;
+}
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.skill-descriotion {
+    color: #757575;
+}
+
+.skill {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0. 06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.secton-title {
+    text-align: center;
+    margin-top: 100px;
+    font-weight: 700px;
+    font-size: 35px;
+}
+
+.sct-pragrapg {
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
